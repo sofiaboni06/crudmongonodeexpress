@@ -1,7 +1,4 @@
-import {
-  celsiusAFahrenheit,
-  fahrenheitACelsius
-} from '../temperatura.js'
+const { celsiusAFahrenheit, fahrenheitACelsius } = require('../temperatura.js')
 
 test('Convierte Celsius a Fahrenheit', () => {
   expect(celsiusAFahrenheit(0)).toBe(32)

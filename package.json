@@ -2,15 +2,14 @@
   "name": "crudmongonodeexpress",
   "version": "1.0.0",
   "main": "app.js",
-  "type": "module",
   "scripts": {
     "start": "node app.js",
-     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "jest"
   },
-
   "jest": {
     "testEnvironment": "node"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
